@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../assets/img/cart2.svg"
+import img from "../../assets/img/mainCart.svg"
 import './CardWidget.css'
 const CardWidget = () => {
   return (
