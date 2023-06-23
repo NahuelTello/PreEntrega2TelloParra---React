@@ -1,0 +1,14 @@
+.card-widget{
+    display: flex;
+    align-items: center;
+    width: 40px;
+}
+.card-widget p{
+    font-size: large;
+    color: white;
+}
+
+.card-widget p span{
+    background-color: red;
+    border-radius: 3rem;
+}

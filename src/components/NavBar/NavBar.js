@@ -1,8 +1,7 @@
 import "./styles.css";
 
 import { Link } from "react-router-dom";
-
-import img from "../../assets/img/cart.svg";
+import CardWidget from "../CardWidget/CardWidget";
 
 const NavBar = () => {
   return (
@@ -22,7 +21,7 @@ const NavBar = () => {
           Human
         </Link>
         <Link className="li" to="/">
-          <img src={img} alt="cart" />
+          <CardWidget />
         </Link>
       </ul>
     </nav>
