@@ -1,5 +1,8 @@
 .Detail-List{
     display:flex;
     justify-content: center;
-    margin: autp;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #082F50;
+
 }
