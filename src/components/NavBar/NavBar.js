@@ -22,7 +22,7 @@ const NavBar = () => {
           Human
         </Link>
         <Link className="li" to="/">
-          <img src={img} alt="" />
+          <img src={img} alt="cart" />
         </Link>
       </ul>
     </nav>
