@@ -5,6 +5,7 @@ import axios from 'axios';
 import { useParams } from "react-router-dom";
 
 const CategoryPage = () => {
+
   const [chars, setChar] = useState([]);
 
   let { categoryId } = useParams();
@@ -33,4 +34,4 @@ const CategoryPage = () => {
 
 export default CategoryPage
 
-//rafce 
+//rafce echo "# PreEntrega2TelloParra"

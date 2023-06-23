@@ -2,6 +2,8 @@ import "./styles.css";
 
 import { Link } from "react-router-dom";
 
+import img from "../../assets/img/cart.svg";
+
 const NavBar = () => {
   return (
     <nav className="nav-container">
@@ -19,9 +21,9 @@ const NavBar = () => {
         <Link className="li" to="/category/Human">
           Human
         </Link>
-        {/* <Link className="li" to="/">
-          Cart
-        </Link> */}
+        <Link className="li" to="/">
+          <img src={img} alt="" />
+        </Link>
       </ul>
     </nav>
   );

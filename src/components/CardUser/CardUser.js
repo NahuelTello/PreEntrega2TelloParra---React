@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
 const CardUser = ({ char }) => {
-    const { image, name, status, species, origin } = char;
+    const { image, name, status, species, origin } = char; /*  */
 
     return (
         <Card sx={{ maxWidth: 345 }}>
