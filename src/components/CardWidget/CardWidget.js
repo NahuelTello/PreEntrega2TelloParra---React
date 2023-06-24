@@ -7,7 +7,7 @@ const CardWidget = () => {
         <div className="card-widget">
             <img src={img} alt="cart" />
             <p>
-                <span>2</span>
+                <span>5</span>
             </p>
         </div>
     </>
