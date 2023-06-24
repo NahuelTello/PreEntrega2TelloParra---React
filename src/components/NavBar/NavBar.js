@@ -1,7 +1,7 @@
 import "./styles.css";
 
 import { Link } from "react-router-dom";
-import CardWidget from "../CardWidget/CardWidget";
+import CartWidget from "../CardWidget/CardWidget";
 
 const NavBar = () => {
   return (
@@ -21,7 +21,7 @@ const NavBar = () => {
           Human
         </Link>
         <Link className="li" to="/">
-          <CardWidget />
+          <CartWidget />
         </Link>
       </ul>
     </nav>
